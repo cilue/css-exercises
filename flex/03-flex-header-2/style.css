@@ -46,3 +46,25 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* Solution */
+
+.header, .left, .right, ul {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 16px;
+}
+
+ul {
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.left, .right {
+  align-items: center;
+  gap: 16px;
+}
